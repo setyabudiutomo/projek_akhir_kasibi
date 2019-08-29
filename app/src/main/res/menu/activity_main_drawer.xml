@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/kamus3d"
+            android:icon="@drawable/kamus"
+            android:title="Kamus" />
+        <item
+            android:id="@+id/kosakata"
+            android:icon="@drawable/kumpulan_kata"
+            android:title="Kumpulan Kata" />
+        <item
+            android:id="@+id/tentang"
+            android:icon="@drawable/tentang"
+            android:title="Tentang" />
+    </group>
+</menu>

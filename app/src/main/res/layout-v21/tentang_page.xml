@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tentang_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="107dp"
+            android:layout_height="170dp"
+            android:src="@drawable/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:id="@+id/logo"/>
+
+        <TextView
+            android:layout_below="@id/logo"
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:text="Aplikasi kamus ini adalah hasil penelitian yang dilakukan oleh Mahasiswa dan Dosen Program Studi Teknologi Game Politeknik Elektronika Negeri Surabaya dan bekerja sama dengan SLB Karya Mulya Surabaya" />
+
+        <TextView
+            android:layout_below="@id/textView2"
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:text="Aplikasi ini dibuat dengan tujuan untuk menciptakan media belajar bahasa isyarat dengan standar SIBI (Sistim Isyarat Bahasa Indonesia)
+
+Aplikasi ini menerapkan OpenGL 2.0 dan diimprovisasi dengan projek open source dari https://github.com/andresoviedo/android-3D-model-viewer" />
+
+        <TextView
+            android:layout_below="@id/textView3"
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:text="Aplikasi ini masih dalam pengembangan lebih lanjut, untuk kritik dan saran dapat disampaikan melalui : bit.ly/kamus_sibi" />
+
+        <Button
+            android:id="@+id/kritik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="50dp"
+            android:layout_below="@id/textView4"
+            android:background="@color/colorPrimary"
+            android:text="Kritik dan saran"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
